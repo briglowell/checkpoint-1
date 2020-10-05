@@ -23,7 +23,9 @@ footer {
   height: 10vh;
 }
 
-.btn-submit {}
+.font-sansita {
+  font-family: 'Sansita Swashed', cursive;
+}
 
 .border-left-thick {
   border-left: 10px solid var(--cardinal);
