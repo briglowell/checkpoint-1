@@ -1,0 +1,86 @@
+:root {
+  --cardinal: rgb(34, 114, 65);
+  --slate: rgb(58, 53, 53);
+  --light: rgb(238, 238, 238);
+  --text: rgb(58, 54, 54);
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  height: 10vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+footer {
+  height: 10vh;
+}
+
+.btn-submit {}
+
+.border-left-thick {
+  border-left: 10px solid var(--cardinal);
+}
+
+.img-banner {
+  background-image: url(https://connect-prd-cdn.unity.com/p/images/15ead946-13cc-46e7-ba65-e803628655e8_170802_RusselM_fb.jpg.1000x0x1.webp);
+  height: 60vh;
+  background-size: cover;
+}
+
+.img-knight {
+  background-image: url(https://i.imgur.com/hKHPNbQ.jpg);
+}
+
+.bg-cardinal {
+  background-color: var(--cardinal);
+}
+
+.text-cardinal {
+  color: var(--cardinal);
+}
+
+.text-light {
+  color: var(--light);
+}
+
+.text-default {
+  color: var(--text);
+}
+
+.bar-xs {
+  height: 15px;
+  width: 25%;
+  background-color: var(--slate);
+}
+
+.bar-sm {
+  height: 15px;
+  width: 50%;
+  background-color: var(--slate);
+}
+
+.bar-md {
+  height: 15px;
+  width: 60%;
+  background-color: var(--slate);
+}
+
+.bar-lg {
+  height: 15px;
+  width: 80%;
+  background-color: var(--slate);
+}
+
+.bar-xl {
+  height: 15px;
+  width: 100%;
+  background-color: var(--slate);
+}
