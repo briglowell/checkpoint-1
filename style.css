@@ -1,8 +1,9 @@
 :root {
-  --cardinal: rgb(34, 114, 65);
+  --forest: rgb(34, 114, 65);
   --slate: rgb(58, 53, 53);
   --light: rgb(238, 238, 238);
   --text: rgb(58, 54, 54);
+  --granite: rgb(180, 179, 179);
 }
 
 body {
@@ -28,7 +29,7 @@ footer {
 }
 
 .border-left-thick {
-  border-left: 10px solid var(--cardinal);
+  border-left: 10px solid var(--forest);
 }
 
 .img-banner {
@@ -41,12 +42,16 @@ footer {
   background-image: url(https://i.imgur.com/hKHPNbQ.jpg);
 }
 
-.bg-cardinal {
-  background-color: var(--cardinal);
+.bg-forest {
+  background-color: var(--forest);
 }
 
-.text-cardinal {
-  color: var(--cardinal);
+.bg-granite {
+  background-color: var(--granite);
+}
+
+.text-forest {
+  color: var(--forest);
 }
 
 .text-light {
